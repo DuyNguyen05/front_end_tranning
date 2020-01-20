@@ -1,0 +1,30 @@
+.btn-primary {
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  display: inline-block;
+  transition: 0.3s;
+  cursor: pointer;
+
+  .text {
+    color: #00cdcd;
+  }
+  
+  &:hover {
+    background: #dfd856;
+    color: #ffffff;
+    
+    .text {
+      color: #ffffff;
+    }
+  }
+
+  &:active {
+    background: #0000ff;
+  }
+
+}
